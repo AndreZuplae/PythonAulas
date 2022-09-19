@@ -1,3 +1,4 @@
+#Repositorio com erro de logica identificar e resolver
 from time import sleep
 
 situacao = 'Reprovado'
