@@ -1,0 +1,40 @@
+01-Modulo-Fundamentos
+    Exercicio01
+        retratamos a criacao simplificada doque é uma variavel, representando-a com valores fixos.
+
+    Exercicio02
+        retratamos variaveis que solicitam a insercao de dados em uma aplicacao console pelo usuario.
+    
+    Exercicio03
+        retratamos aqui uma variavel que recebe um valor, porem a forma de impresao solicitada e referente a sintaxe,
+        de um dos metodos que permite concatenar elementos na forma da impresao!
+
+    Exercicio04
+        variaveis numericas recendo valores e sendo impressos em uma aplicacao console.
+    
+    Exercicio05
+        Variavel recebendo um dado, forma de impresao do dado exibindo mensagem, trabalhando com interpolacao, e exibindo tipo da Variavel
+    
+    Exercicio06
+        Variavel recendo um dado, neste formato de impresao ultilizamos metodos do python que nos permitem saber qual o tipo do dado.
+        que esta sendo inserido na variavel, podemos saber se existem espaco, se é numerico, alfabetico, alfanumerico tudo isso com metodos booleanos de impresao!
+    
+    Exercicio07
+        Exercicio 07 estamos ultilizando metodos internos do python para obter reesultados referente a dados digitados
+        ex se existem espaco, dado numerico, dado alfanumerico, o retono deste metodo interno imprime resultado booleano no console
+
+    Exercicio08
+        Exercicio 08 estamos ultilizando o conceito de polimorfismo, onde ultilizamos operador numerico
+        para realizar repetidamente a impresao de uma string
+
+    Exercicio09
+        exercicio 09 esta sendo ultilizado o conceito de prioridade procedencia aritimetica onde e realizado o calculo
+        conforme a prioridade da simbologia
+    
+    Exercicio10
+        Ultilizando conceitos de importacao, e importacao otimizada podendo assim usar classes e atributos ou funcoes especificos 
+    
+    Exercicio11 
+        ultilizando conceito de Listas e importacao, fazemos aqui a importacao de uma funcao que sorteia uma lista de tipo predefinido podendo assim
+        gerar aleatoriamente.
+
