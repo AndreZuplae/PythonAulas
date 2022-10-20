@@ -1,4 +1,4 @@
-dicionario = { 'Nome':'Maykon', 'Sobrenome':'Granemann' }
+dicionario = { 'Nome':'Andre', 'Sobrenome':'Granemann' }
 
 #--- Impressão de um dicionário completo
 

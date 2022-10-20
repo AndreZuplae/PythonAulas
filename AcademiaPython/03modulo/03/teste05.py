@@ -8,9 +8,9 @@ while situacao == "Reprovado":
     nome = str(input("Digite seu nome: "))
     sobreNome = str(input("Digite seu SobreNome: "))
     idade = int(input("Digite sua idade: "))
-
+    nota = int(input("Digite Sua nota: "))
     for lista in range(0, 2):
-        nota = int(input("Digite Sua nota: "))
+        
         lista_notas = [nota] 
         media = sum(lista_notas)/ len(lista_notas)
     situacao = 'Reprovado Por favor Tente novamente'
