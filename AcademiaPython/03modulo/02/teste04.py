@@ -1,42 +1,19 @@
-numero = 0
+# Dicionários
 
-#Variavel polimorfismo
-poli = "*"*20
+#--- Criação de uma variável tipo dicionário 
+#dicionario = { 'Nome':'Andre', 'Sobrenome':'Belli' }
+#--- Impressão de um dicionário completo
+#print(dicionario)
+#--- Impressão de um dos dados do dicionário através da chave
+#print(dicionario ['Sobrenome'])
 
-#funcao de imprecao ultilizando polimorfismo em variaveis
-print(f"\n{poli} Cabecalho Repeticao {poli} \n")
+n1 = input('Digite seu nome: ')
+n2 = input('Digite seu nome: ')
+n3 = input('Digite seu nome: ')
 
+print("\n", ' '*20, 'CABECALHO', ' '*20, '\n')
 
-for c in range(0, 3):
+lista = [n1, n2, n3]
 
-    valores = int(input("Digite um numero: "))
-
-    numero += valores
-
-print("A soma dos valores digitador é! {}".format(numero))
-
-#funcao de imprecao ultilizando polimorfismo em variaveis
-print(f"\n{poli} FIM  Repeticao {poli}\n")
-
-#funcao de imprecao ultilizando polimorfismo em variaveis
-
-print(f"\n{poli} Inicio Decisao {poli}\n")
-
-#estrutura decisao
-if numero > 5:
-    
-    print('a soma dos numeros e maior que cinco')
-
-elif numero < 5:
-    print("a soma dos numeros e menor que cinco")
-    
-elif numero == 5:
-    print("a soma dos numeros foi cinco")
-
-else:
-    print('resultado saida!')
-
-#funcao de imprecao ultilizando polimorfismo em variaveis
-
-print(f"\n{poli} FIM Decisao {poli}\n")
-
+for i in range(0,3):
+     print(lista[i])
