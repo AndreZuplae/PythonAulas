@@ -1,11 +1,11 @@
 #1 -**************procedimento***********************
-#def mensagem():
-   # print('Ola') 
+def mensagem():
+    print('Ola') 
 #1 -**************procedimento***********************
 
 #2 -******************funcao***********************
-#def mensagem2():
-   # return 'Ola 2'
+def mensagem2():
+   return 'Ola 2'
 #2 -******************funcao***********************
 
 
@@ -19,14 +19,14 @@ def soma(n1, n2):
 
 #=========================================================================================================
 #1 ***********procedimento***********************
-#mensagem()
+mensagem()
 #1 ***********procedimento***********************
 
 #2-******************funcao***********************
 
-#msg = mensagem2()
-#print(msg)
-#print(mensagem2())
+msg = mensagem2()
+print(msg)
+print(mensagem2())
 
 #2-******************funcao***********************
 
