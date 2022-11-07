@@ -1,0 +1,3 @@
+{'nome': 'Lirinha', 'cpf': 3927439, 'idade': 24, 'telefone': 3084304}
+{'nome': 'andre', 'cpf': 9375943, 'idade': 25, 'telefone': 3974934254}
+{'nome': 'Larissa', 'cpf': 308430, 'idade': 34, 'telefone': 39048308}

@@ -19,9 +19,9 @@ def saudacao():
 
 #azerCheckin recebendo como atributo cliente
 def fazerCheckin(cliente):
-
     #sintax com funcao open para arquivo txt, variavel criada refenciando o arquivo
-    with open('hotel/hotel.txt', 'a') as arquivo:
+    # 'a' entre string na funcao open esta escrevendo no arquivo
+    with open('hotel.txt', 'a') as arquivo:
 
         #variavel que referencia arquivo recebendo funcao write que recebe como atributo para escrita o cliente
         arquivo.write(str(cliente)+"\n")
@@ -30,7 +30,7 @@ def fazerCheckin(cliente):
 def relatorioHospedes():
 
     #sintax com funcao open para arquivo txt
-    with open('hotel/hotel.txt') as arquivo:  
+    with open('hotel.txt', 'r') as arquivo:  
 
         #print recebendo a variavel arquivo que referencia arquivo txt, sendo lida pela funcao internalizada read
         print(arquivo.read())
@@ -39,13 +39,13 @@ def relatorioHospedes():
 def procurarHospedes(clienteFind):
 
     #variavel criada recebendo valor inteiro 
-    index=0
+    index = 0
 
     #variavel criada recebendo valor inteiro 
     flag=0
 
     #variavel referencia do arquivo txt, recebendo funcao open e o caminho do arquivo. letra(r) tem a funcao de ler o arquivo
-    arquivo = open("hotel/hotel.txt", "r") 
+    arquivo = open("hotel.txt", "r") 
 
     #estrutura repeticao recebendo uma variavel line para ler o arquivo(txt)
     for line in arquivo:
@@ -61,7 +61,7 @@ def procurarHospedes(clienteFind):
             print(line)
 
             #variavel flag recendo incremento do dicionario
-            flag =1
+            flag = 1
 
     # condional da variavel flag atribuindo atraves de operador relacional condicao de cliente nao encontrado 
     if flag == 0:
@@ -77,7 +77,7 @@ def fazerCheckout(clienteFind):
     flag=0
 
     #variavel referencia do arquivo txt, recebendo funcao open e o caminho do arquivo. letra(r) tem a funcao de ler o arquivo
-    arquivo = open("hotel/hotel.txt", "r") 
+    arquivo = open("hotel.txt", "r") 
 
     #estrutura repeticao recebendo uma variavel line para ler o arquivo(txt)
     for line in arquivo:
@@ -111,7 +111,7 @@ def fazerCheckout(clienteFind):
         try:
 
             #variavel referencia do arquivo txt, recebendo funcao open e o caminho do arquivo. letra(r) tem a funcao de ler o arquivo
-            with open('hotel/hotel.txt', 'r') as arquivo:
+            with open('hotel.txt', 'r') as arquivo:
 
                 # variavel lines criada, recebendo a variavel que representa o caminho do txt.
                 # funcao readlines() Retorna todas as linhas do arquivo, como uma lista onde cada linha é um item  objeto de lista:
@@ -121,7 +121,7 @@ def fazerCheckout(clienteFind):
                 posicao = 1
       
                 #funcao open recebendo  o caminho do arquivo, variavel referencia  arquivo txt letra(w) tem a funcao de escrever no arquivo
-                with open('hotel/hotel.txt', 'w') as arquivo:
+                with open('hotel.txt', 'w') as arquivo:
 
                     #estrutura de repeticao com variavel criada lendo as linhas atraves da chave do dicionario
                     for line in lines:
