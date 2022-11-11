@@ -41,7 +41,7 @@ float(input("Digite o limite da sua Conta:> ")))
 print("*"*30, "Extrato Inicial da conta", "*"*30)
 conta2.extrato()
 
-conta2.transferir(float(input("Digite O valor da transferencia:> ")), conta2, conta)
+conta2.transferir(float(input("Digite O valor da transferencia:> ")), conta, conta2)
 print("*"*30, "Extrato Transferencia", "*"*30)
 conta2.extrato()
 
