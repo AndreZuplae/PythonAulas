@@ -1,18 +1,20 @@
 from model import Conta
-from controller import create, read
+from controller import create, read, update, delete
 
 abacate = Conta()
-abacate.titular = 'Jean Carlos boladao'
-abacate.numero = '12345'
-abacate.saldo = 3000.0
+abacate.titular = 'Dieter'
+abacate.numero = 123456
+abacate.saldo = 10000.0
 
-create(abacate)
+#create(abacate)
 
-lista_abacates = read()
+#lista_abacates = read()
 
-print(lista_abacates)
+#print(lista_abacates)
 
-print("*"*30)
+#print("*"*30)
 
-for c in lista_abacates:
-    print(c)
+#for c in lista_abacates:
+    #print(c)
+update(abacate)
+#delete(1234567)
